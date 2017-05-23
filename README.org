@@ -1,0 +1,6 @@
+* What is this
+This is the homework of CS426 in SJTU. The requirement is in file:hw5.pdf .
+Briefly, I write some python code using perceptron and KNN to deal with
+a small 2-class classification problem and draw the graphs of decision boundaries.
+There is no trick to speed up the performance so it will take a long time especially
+in KNN algorithm.
