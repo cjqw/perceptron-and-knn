@@ -32,7 +32,7 @@ def testPerceptron():
 
 def testKNN():
     global train_set,test_set
-    model = KNN(train_set)
+    model = KNN(train_set,3)
     model.build()
     predict = [model.predict(item) for item in test_set]
     drawGraph(test_set,predict,"KNN")

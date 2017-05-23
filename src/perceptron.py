@@ -20,7 +20,7 @@ class Perceptron(object):
             self.train_batch(rate)
 
     def predict(self,item):
-        z = sum(self.w * item[:2]) + self.b
+        z = np.sum(self.w * item[:2]) + self.b
         if z > 0:
             return 1
         else:
