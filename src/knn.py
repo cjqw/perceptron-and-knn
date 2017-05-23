@@ -18,7 +18,7 @@ class KNN(object):
         result = sorted(result)
         count = {}
         for i in range(0,self.k):
-            vote = result[i][1]
+            vote = int(result[i][1])
             count[vote] = count.get(vote,0) + 1
         ans = [0,0]
         for label in count:
